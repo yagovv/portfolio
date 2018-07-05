@@ -11,23 +11,26 @@ a {
 
 .main-flow {
   margin: 0 auto;
-  width: 877px;
-  height: 572px;
+  width: 900px;
+  height: 600px;
   background-image: linear-gradient(to bottom, #818181, #525252);
 
   h1 {
+    padding: 15px;
     color: #ffffff;
   }
 }
 .sub-flow {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 0 auto;
   width: 815px;
   height: 453px;
   background-color: #4a4a4a;
 }
 .main-link {
+  margin-left: 42.5px;
   width: 186px;
   height: 62px;
   background-color: #999898;
@@ -45,13 +48,24 @@ a {
   background-color: rgba(255, 249, 249, 0.52);
   border: solid 1px #979797;
 
-  img{
+  &:hover{
+    border: solid 2px red;
+  }
+
+  img {
+    display: block;
     height: 175px;
-    max-width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 10px;
   }
 }
 .sub-card {
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   bottom: 0;
   left: 0;
   width: 204px;

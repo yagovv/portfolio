@@ -1,8 +1,62 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: radial-gradient(circle at 51% 17%, #000000, #4d4d4d);
+  height: 100vh;
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+.main-flow {
+  margin: 0 auto;
+  width: 877px;
+  height: 572px;
+  background-image: linear-gradient(to bottom, #818181, #525252);
+
+  h1 {
+    color: #ffffff;
+  }
+}
+.sub-flow {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 815px;
+  height: 453px;
+  background-color: #4a4a4a;
+}
+.main-link {
+  width: 186px;
+  height: 62px;
+  background-color: #999898;
+  border: solid 1px #979797;
+  color: #77eaf9;
+  font-size: 20px;
+}
+.card {
+  margin: 10px 30px;
+  position: relative;
+  width: 204px;
+  height: 270px;
+  border-radius: 8px;
+  box-shadow: 0 5px 4px 7px rgba(58, 58, 58, 0.5);
+  background-color: rgba(255, 249, 249, 0.52);
+  border: solid 1px #979797;
+
+  img{
+    height: 175px;
+    max-width: 100%;
+  }
+}
+.sub-card {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 204px;
+  height: 55px;
+  background-color: rgba(0, 0, 0, 0.57);
+  border: solid 1px #979797;
+  color: #cecece;
 }

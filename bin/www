@@ -39,6 +39,6 @@ server.on('error', error => {
   }
 });
 
-server.listen(process.env.PORT, '178.128.41.135', () => {
-  console.log(`Listening on http://localhost:${process.env.PORT}`);
+server.listen(process.env.PORT, () => {
+  console.log(`Listening on https://localhost:${process.env.PORT}`);
 });

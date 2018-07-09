@@ -20,6 +20,9 @@ body {
     font-size: 3em;
     padding: 15px;
     color: #ffffff; }
+  .main-flow button {
+    background-color: transparent;
+    margin: 20px; }
 
 .upper {
   visibility: hidden;

@@ -14,6 +14,8 @@ class YvMainComponent extends HTMLElement {
     </button>`;
   }
   connectedCallback() {
+    $projectsBtn = document.getElementById('projects-btn');
+    $aboutBtn = document.getElementById('about-btn');
   }
   _render() {}
 

@@ -21,10 +21,20 @@ class YvMainComponent extends HTMLElement {
     $projectsBtn.addEventListener("click", event => { 
       $projectsBtn.dispatchEvent(projectsClickedEvent);
     });
-    
+
     $flow.addEventListener("projectsClicked", event => {
       $flow.innerHTML = `<yv-projects-component></yv-projects-component>`;
     });
+    $flow.addEventListener("aboutClicked", event => {
+      $flow.innerHTML = `<yv-about-component></yv-about-component>`;
+    });
+    let aboutClickedEvent = document.createEvent("Event");
+    aboutClickedEvent.initEvent('aboutClicked', true, true);
+    let $aboutBtn = document.getElementById("about-btn");
+    $aboutBtn.addEventListener("click", event => { 
+      $aboutBtn.dispatchEvent(aboutClickedEvent);
+    });
+
   }
   _render() {}
 }

@@ -69,6 +69,5 @@ class YvProjectsComponent extends HTMLElement {
       $flow.innerHTML = "<yv-main-component></yv-main-component>";
     });
   }
-  _render() {}
 }
 window.customElements.define("yv-projects-component", YvProjectsComponent);

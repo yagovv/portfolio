@@ -1,8 +1,9 @@
 class YvAboutComponent extends HTMLElement {
   constructor() {
     super();
-    this._root = this.attachShadow({ mode: "open" });
-    this._root.innerHTML = `
+  }
+  connectedCallback() {
+    this.innerHTML = `
     <h1>About Me</h1>
     <div>
     <p>~ Alia sadipscing definitiones cum ea.
@@ -18,11 +19,13 @@ class YvAboutComponent extends HTMLElement {
     <div>
       <img src="" />
     </div>
-    
-    <button id="back-main">
-    </button>`;
+    <button id="back-main"> Go Back </button>
+    `;
+    let $backBtn = document.getElementById("back-main");
+    let $flow = document.getElementById("main-flow");
+    $backBtn.addEventListener("click", event => {
+      $flow.innerHTML = "<yv-main-component></yv-main-component>";
+    });
   }
-  connectedCallback() {}
-  _render() {}
 }
 window.customElements.define("yv-about-component", YvAboutComponent);

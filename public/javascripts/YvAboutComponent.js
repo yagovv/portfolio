@@ -6,14 +6,16 @@ class YvAboutComponent extends HTMLElement {
     this.innerHTML = `
     <h1>About Me</h1>
     <div>
-    <p>~ Alia sadipscing definitiones cum ea.
+    <ul>
+    <li>~ Alia sadipscing definitiones cum ea.</li>
 
-    ~ Affert persius constituam eos ex.
+    <li>~ Affert persius constituam eos ex.</li>
     
-    ~ Malis noluisse conceptam mel ea.
+    <li>~ Malis noluisse conceptam mel ea.</li>
     
-    ~ Ad pro eligendi dignissim. Ut melius mediocrem vim.
-    </p>
+    <li>~ Ad pro eligendi dignissim. Ut melius mediocrem vim.</li>
+    
+    <ul>
     <span class= "specialties"> Specialties: Annoying Brenda. </span>
     </div>
     <div>

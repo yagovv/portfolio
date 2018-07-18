@@ -1,8 +1,10 @@
 class YvMainComponent extends HTMLElement {
-  constructor(){
+  constructor() {
     super();
-    this._root = this.attachShadow({ mode: "open" });
-    this._root.innerHTML = `<button id="about-btn">
+  }
+  connectedCallback() {
+    this.innerHTML = `
+    <button id="about-btn">
     <div id="upper-div" class="main-btn">
     <h1>About Me</h1>
     </div>
@@ -12,12 +14,18 @@ class YvMainComponent extends HTMLElement {
     <h1>My Projects</h1>
     </div>
     </button>`;
-  }
-  connectedCallback() {
-    $projectsBtn = document.getElementById('projects-btn');
-    $aboutBtn = document.getElementById('about-btn');
+    let $flow = document.getElementById("main-flow");
+    let projectsClickedEvent = document.createEvent("Event");
+    projectsClickedEvent.initEvent('projectsClicked', true, true);
+    let $projectsBtn = document.getElementById("projects-btn");
+    $projectsBtn.addEventListener("click", event => { 
+      $projectsBtn.dispatchEvent(projectsClickedEvent);
+    });
+    
+    $flow.addEventListener("projectsClicked", event => {
+      $flow.innerHTML = `<yv-projects-component></yv-projects-component>`;
+    });
   }
   _render() {}
-
 }
 window.customElements.define("yv-main-component", YvMainComponent);

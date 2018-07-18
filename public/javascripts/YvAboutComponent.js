@@ -3,18 +3,23 @@ class YvAboutComponent extends HTMLElement {
     super();
     this._root = this.attachShadow({ mode: "open" });
     this._root.innerHTML = `
-    <style>
-    
-    </style>
-    <button id="about-btn">
-    <div id="upper-div" class="main-btn">
     <h1>About Me</h1>
+    <div>
+    <p>~ Alia sadipscing definitiones cum ea.
+
+    ~ Affert persius constituam eos ex.
+    
+    ~ Malis noluisse conceptam mel ea.
+    
+    ~ Ad pro eligendi dignissim. Ut melius mediocrem vim.
+    </p>
+    <span class= "specialties"> Specialties: Annoying Brenda. </span>
     </div>
-    </button>
-    <button id="projects-btn">
-    <div id="lower-div" class="main-btn">
-    <h1>My Projects</h1>
+    <div>
+      <img src="" />
     </div>
+    
+    <button id="back-main">
     </button>`;
   }
   connectedCallback() {}

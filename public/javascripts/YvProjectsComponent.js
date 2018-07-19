@@ -16,24 +16,24 @@ class YvProjectsComponent extends HTMLElement {
         </div>
         <img src= "images/ironhackers.png" />
       </a>
-      <div class="project-card">
+      <a href="https://planit-ironhack.herokuapp.com/" class="project-card">
         <div class="overlay-card">
-          <p>Lorem Ipsum</p>
+          <h2>PLANiT</h2>
           <p>
-            <span class="info">JavaScript Game</span>
+            Express.js Website for making plans!
           </p>
         </div>
-        <img src= "" />
-      </div>
-      <div class="project-card">
+        <img src="images/planit.png"/>
+      </a>
+      <a href="https://github.com/yagovv/Zombye" class="project-card">
         <div class="overlay-card">
-          <p>Lorem Ipsum</p>
+          <h2>Zombye</h2>
           <p>
-            <span class="info">JavaScript Game</span>
+            MEAN Stack Website for surviving a zombie apocalypse!
           </p>
         </div>
-        <img src= "" />
-      </div>
+        <img src= "images/zombye.png" />
+      </a>
       <div class="project-card">
         <div class="overlay-card">
           <p>Lorem Ipsum</p>

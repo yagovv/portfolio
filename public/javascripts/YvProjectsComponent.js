@@ -7,7 +7,7 @@ class YvProjectsComponent extends HTMLElement {
     <button id="back-main"> BACK </button>
     <h1>My Projects</h1>
     <div id="projects">
-      <div class="project-card">
+      <a href="https://yagovv.github.io/Ironhackers-of-the-Caribbean/" class="project-card">
         <div class="overlay-card">
           <h2>Ironhackers Of The Caribbean</h2>
           <p>
@@ -15,7 +15,7 @@ class YvProjectsComponent extends HTMLElement {
           </p>
         </div>
         <img src= "images/ironhackers.png" />
-      </div>
+      </a>
       <div class="project-card">
         <div class="overlay-card">
           <p>Lorem Ipsum</p>

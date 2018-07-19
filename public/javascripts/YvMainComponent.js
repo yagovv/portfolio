@@ -4,21 +4,24 @@ class YvMainComponent extends HTMLElement {
   }
   connectedCallback() {
     this.innerHTML = `
-    <button id="about-btn">
-    <div id="upper-div" class="main-btn">
+    <div id="container-projects">
+    <button id="about-btn" class="main-btn">
+    <div id="upper-div" >
     <h1>About Me</h1>
     </div>
     </button>
-    <button id="projects-btn">
-    <div id="lower-div" class="main-btn">
+    <div class='line'></div>
+    <button id="projects-btn" class="main-btn">
+    <div id="lower-div">
     <h1>My Projects</h1>
     </div>
-    </button>`;
+    </button>
+    </div>`;
     let $flow = document.getElementById("main-flow");
     let projectsClickedEvent = document.createEvent("Event");
-    projectsClickedEvent.initEvent('projectsClicked', true, true);
+    projectsClickedEvent.initEvent("projectsClicked", true, true);
     let $projectsBtn = document.getElementById("projects-btn");
-    $projectsBtn.addEventListener("click", event => { 
+    $projectsBtn.addEventListener("click", event => {
       $projectsBtn.dispatchEvent(projectsClickedEvent);
     });
 
@@ -29,12 +32,11 @@ class YvMainComponent extends HTMLElement {
       $flow.innerHTML = `<yv-about-component></yv-about-component>`;
     });
     let aboutClickedEvent = document.createEvent("Event");
-    aboutClickedEvent.initEvent('aboutClicked', true, true);
+    aboutClickedEvent.initEvent("aboutClicked", true, true);
     let $aboutBtn = document.getElementById("about-btn");
-    $aboutBtn.addEventListener("click", event => { 
+    $aboutBtn.addEventListener("click", event => {
       $aboutBtn.dispatchEvent(aboutClickedEvent);
     });
-
   }
   _render() {}
 }

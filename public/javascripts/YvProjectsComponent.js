@@ -9,12 +9,12 @@ class YvProjectsComponent extends HTMLElement {
     <div id="projects">
       <div class="project-card">
         <div class="overlay-card">
-          <p>Lorem Ipsum</p>
+          <h2>Ironhackers Of The Caribbean</h2>
           <p>
-            <span class="info">JavaScript Game</span>
+            1vs1 JavaScript Game
           </p>
         </div>
-        <img src= "" />
+        <img src= "images/ironhackers.png" />
       </div>
       <div class="project-card">
         <div class="overlay-card">

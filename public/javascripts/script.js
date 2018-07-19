@@ -14,7 +14,7 @@ document.addEventListener(
       setTimeout(() => {
         $flow.innerHTML = `<yv-main-component></yv-main-component>`;
       }, 2000);
-    }, 8);
+    }, 8000);
   },
   false
 );

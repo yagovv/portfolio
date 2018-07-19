@@ -4,6 +4,7 @@ class YvProjectsComponent extends HTMLElement {
   }
   connectedCallback() {
     this.innerHTML = `
+    <div class="projects-div">
     <button id="back-main"> BACK </button>
     <h1>My Projects</h1>
     <div id="projects">
@@ -61,6 +62,7 @@ class YvProjectsComponent extends HTMLElement {
         </div>
         <img src= "" />
       </div>
+    </div>
     </div>
     `;
     let $btnBack = document.getElementById("back-main");

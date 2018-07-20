@@ -20,7 +20,6 @@ body {
   -webkit-animation: AnimationName 13s ease infinite;
   -moz-animation: AnimationName 13s ease infinite;
   animation: AnimationName 13s ease infinite; }
-
 @-webkit-keyframes AnimationName {
   0% {
     background-position: 96% 0%; }
@@ -28,7 +27,6 @@ body {
     background-position: 5% 100%; }
   100% {
     background-position: 96% 0%; } }
-
 @-moz-keyframes AnimationName {
   0% {
     background-position: 96% 0%; }
@@ -36,7 +34,6 @@ body {
     background-position: 5% 100%; }
   100% {
     background-position: 96% 0%; } }
-
 @keyframes AnimationName {
   0% {
     background-position: 96% 0%; }
@@ -71,7 +68,6 @@ body {
     opacity: 0; }
   to {
     opacity: 1; } }
-
 .upper {
   visibility: hidden;
   opacity: 0;
@@ -93,6 +89,10 @@ body {
 .main-btn {
   border: none;
   text-decoration: none; }
+  .main-btn:hover {
+    animation-name: pulse;
+    animation-iteration-count: infinite;
+    animation-duration: 1s; }
 
 .project-card {
   margin: 30px;
@@ -148,7 +148,6 @@ body {
   to {
     opacity: 1;
     transform: translate3d(0, 0, 0); } }
-
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -156,11 +155,18 @@ body {
   to {
     opacity: 1;
     transform: translate3d(0, 0, 0); } }
-
 #back-main {
   color: white;
   padding: 10px;
   border: 1px solid white;
   border-radius: 16px; }
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1); }
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05); }
+  to {
+    transform: scale3d(1, 1, 1); } }
 
 /*# sourceMappingURL=style.css.map */

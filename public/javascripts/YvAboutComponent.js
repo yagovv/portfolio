@@ -8,16 +8,16 @@ class YvAboutComponent extends HTMLElement {
       <h1>About Me</h1>
       <div class="left">
         <ul>
-        <li>~ Alia sadipscing definitiones cum ea.</li>
+        <li>Full Stack Web Developer (MEAN Stack).</li>
     
-        <li>~ Affert persius constituam eos ex.</li>
+        <li>UX/UI Designer.</li>
         
-        <li>~ Malis noluisse conceptam mel ea.</li>
+        <li>Born and raised in Madrid, Spain.</li>
         
-        <li>~ Ad pro eligendi dignissim. Ut melius mediocrem vim.</li>
+        <li>Guitar player.</li>
         
         <ul>
-        <span class= "specialties"> Specialties: Annoying Brenda. </span>
+        <span class= "specialties"> Specialties: Node.js, Angular 2, MongoDB, Express.js, Sketch, Flinto. </span>
       </div>
       <div class="right">
         <img src="" />

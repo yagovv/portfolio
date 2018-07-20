@@ -15,8 +15,8 @@ class YvAboutComponent extends HTMLElement {
         <li>Born and raised in Madrid, Spain.</li>
         
         <li>Guitar player.</li>
-        
-        <ul>
+        </ul>
+       
         <span class= "specialties"> Specialties: Node.js, Angular 2, MongoDB, Express.js, Sketch, Flinto. </span>
       </div>
       <div class="right">

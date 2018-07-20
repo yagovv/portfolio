@@ -59,8 +59,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  animation-name: fadeIn; }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 .upper {
   visibility: hidden;
   opacity: 0;
@@ -116,8 +122,19 @@ body {
   animation-duration: 2s; }
 
 .about-div {
+  color: white;
+  font-size: 1.5em;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding: 40px;
   animation-name: fadeInDown;
   animation-duration: 2s; }
+
+.specialties {
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 20px 0;
+  display: block; }
 
 @keyframes fadeInDown {
   from {

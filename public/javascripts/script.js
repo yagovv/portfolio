@@ -3,8 +3,8 @@ document.addEventListener(
   () => {
     let $title = document.getElementById("main-title");
     new TypeIt($title, {
-      strings: ["Welcome.", "I'm Yago Vega, and this is my portfolio."],
-      speed: 125,
+      strings: ["Welcome.", "I'm Yago Vega,", "and this is my portfolio."],
+      speed: 150,
       breakLines: false,
       autoStart: false
     });
@@ -13,8 +13,8 @@ document.addEventListener(
       $title.setAttribute("class", "upper");
       setTimeout(() => {
         $flow.innerHTML = `<yv-main-component></yv-main-component>`;
-      }, 2000);
-    }, 8000);
+      }, 2500);
+    }, 13000);
   },
   false
 );

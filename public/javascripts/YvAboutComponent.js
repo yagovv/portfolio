@@ -1,9 +1,10 @@
 class YvAboutComponent extends HTMLElement {
-  constructor() {
-    super();
-  }
-  connectedCallback() {
-    this.innerHTML = `
+    constructor() {
+        super();
+    }
+
+    connectedCallback() {
+        this.innerHTML = `
     <div class="about-div">
       <h1>About Me</h1>
       <div class="left">
@@ -27,11 +28,12 @@ class YvAboutComponent extends HTMLElement {
       <button id="back-main"> Go Back </button>
     </div>
     `;
-    let $backBtn = document.getElementById("back-main");
-    let $flow = document.getElementById("main-flow");
-    $backBtn.addEventListener("click", event => {
-      $flow.innerHTML = "<yv-main-component></yv-main-component>";
-    });
-  }
+        let $backBtn = document.getElementById("back-main");
+        let $flow = document.getElementById("main-flow");
+        $backBtn.addEventListener("click", event => {
+            $flow.innerHTML = "<yv-main-component></yv-main-component>";
+        });
+    }
 }
+
 window.customElements.define("yv-about-component", YvAboutComponent);

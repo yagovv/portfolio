@@ -1,9 +1,10 @@
 class YvProjectsComponent extends HTMLElement {
-  constructor() {
-    super();
-  }
-  connectedCallback() {
-    this.innerHTML = `
+    constructor() {
+        super();
+    }
+
+    connectedCallback() {
+        this.innerHTML = `
     <div class="projects-div">
     <button id="back-main"> BACK </button>
     <h1>My Projects</h1>
@@ -65,11 +66,12 @@ class YvProjectsComponent extends HTMLElement {
     </div>
     </div>
     `;
-    let $btnBack = document.getElementById("back-main");
-    let $flow = document.getElementById("main-flow");
-    $btnBack.addEventListener("click", event => {
-      $flow.innerHTML = "<yv-main-component></yv-main-component>";
-    });
-  }
+        let $btnBack = document.getElementById("back-main");
+        let $flow = document.getElementById("main-flow");
+        $btnBack.addEventListener("click", event => {
+            $flow.innerHTML = "<yv-main-component></yv-main-component>";
+        });
+    }
 }
+
 window.customElements.define("yv-projects-component", YvProjectsComponent);

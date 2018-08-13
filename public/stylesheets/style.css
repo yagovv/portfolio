@@ -20,7 +20,6 @@ body {
   -webkit-animation: AnimationName 13s ease infinite;
   -moz-animation: AnimationName 13s ease infinite;
   animation: AnimationName 13s ease infinite; }
-
 @-webkit-keyframes AnimationName {
   0% {
     background-position: 96% 0%; }
@@ -28,7 +27,6 @@ body {
     background-position: 5% 100%; }
   100% {
     background-position: 96% 0%; } }
-
 @-moz-keyframes AnimationName {
   0% {
     background-position: 96% 0%; }
@@ -36,7 +34,6 @@ body {
     background-position: 5% 100%; }
   100% {
     background-position: 96% 0%; } }
-
 @keyframes AnimationName {
   0% {
     background-position: 96% 0%; }
@@ -71,7 +68,6 @@ body {
     opacity: 0; }
   to {
     opacity: 1; } }
-
 .upper {
   visibility: hidden;
   opacity: 0;
@@ -144,6 +140,8 @@ body {
   padding: 40px;
   animation-name: fadeInDown;
   animation-duration: 2s; }
+  .about-div h1 {
+    margin-bottom: 30px; }
 
 .specialties {
   font-size: 1em;
@@ -158,7 +156,6 @@ body {
   to {
     opacity: 1;
     transform: translate3d(0, 0, 0); } }
-
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -166,7 +163,6 @@ body {
   to {
     opacity: 1;
     transform: translate3d(0, 0, 0); } }
-
 #back-main {
   color: white;
   padding: 10px;

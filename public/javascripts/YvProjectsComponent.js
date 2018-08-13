@@ -9,7 +9,7 @@ class YvProjectsComponent extends HTMLElement {
     <button id="back-main"> BACK </button>
     <h1>My Projects</h1>
     <div id="projects">
-      <a href="https://yagovv.github.io/Ironhackers-of-the-Caribbean/" class="project-card">
+      <a href="https://yagovv.github.io/Ironhackers-of-the-Caribbean/" target="_blank" class="project-card">
         <div class="overlay-card">
           <h2>Ironhackers Of The Caribbean</h2>
           <p>
@@ -18,7 +18,7 @@ class YvProjectsComponent extends HTMLElement {
         </div>
         <img src= "images/ironhackers.png" />
       </a>
-      <a href="https://planit-ironhack.herokuapp.com/" class="project-card">
+      <a href="https://planit-ironhack.herokuapp.com/" target="_blank" class="project-card">
         <div class="overlay-card">
           <h2>PLANiT</h2>
           <p>
@@ -27,7 +27,7 @@ class YvProjectsComponent extends HTMLElement {
         </div>
         <img src="images/planit.png"/>
       </a>
-      <a href="https://github.com/yagovv/Zombye" class="project-card">
+      <a href="https://github.com/yagovv/Zombye" target="_blank" class="project-card">
         <div class="overlay-card">
           <h2>Zombye</h2>
           <p>

@@ -17,7 +17,7 @@ class YvAboutComponent extends HTMLElement {
 
         <li>Guitar player.</li>
 
-        <li><a href="https://github.com/yagovv/">Github</a>, <a href="https://www.linkedin.com/in/yago-vega/">LinkedIn</a></li>        
+        <li><a href="https://github.com/yagovv/" target="_blank">Github</a>, <a href="https://www.linkedin.com/in/yago-vega/" target="_blank">LinkedIn</a></li>        
         </ul>
 
         <span class= "specialties"> Specialties: Node.js, Angular 2, MongoDB, Express.js, Sketch, Flinto. </span>

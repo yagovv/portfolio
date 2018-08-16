@@ -4,20 +4,21 @@
   padding: 0; }
 
 body {
+  background: #098dff;
   margin: 0;
-  font: 14px "Roboto", Helvetica, Arial, sans-serif;
-  background-image: radial-gradient(circle at 51% 17%, #000000, #4d4d4d); }
+  font: 14px "Roboto", Helvetica, Arial, sans-serif; }
 
+@media only screen and (min-width: 768px) {
+  -webkit-animation: AnimationName 13s ease infinite alternate;
+  -moz-animation: AnimationName 13s ease infinite alternate;
+  animation: AnimationName 13s ease infinite alternate; }
 .main-flow {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
   width: 100%;
-  height: 100vh;
-  -webkit-animation: AnimationName 13s ease infinite alternate;
-  -moz-animation: AnimationName 13s ease infinite alternate;
-  animation: AnimationName 13s ease infinite alternate; }
+  height: 100vh; }
 @-webkit-keyframes AnimationName {
   0% {
     background: #098dff; }
@@ -177,10 +178,5 @@ body {
     transform: scale3d(1.05, 1.05, 1.05); }
   to {
     transform: scale3d(1, 1, 1); } }
-@media only screen and (max-width: 767px) {
-  background: #098dff;
-  -webkit-animation: none;
-  -moz-animation: none;
-  animation: none; }
 
 /*# sourceMappingURL=style.css.map */

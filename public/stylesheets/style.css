@@ -178,6 +178,9 @@ body {
   to {
     transform: scale3d(1, 1, 1); } }
 @media only screen and (max-width: 767px) {
-  background: #098dff; }
+  background: #098dff;
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none; }
 
 /*# sourceMappingURL=style.css.map */

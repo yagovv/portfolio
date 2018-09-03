@@ -4,7 +4,7 @@ document.addEventListener(
         let $title = document.getElementById("main-title");
         new TypeIt($title, {
             strings: ["Welcome.", "I'm Yago Vega,", "and this is my portfolio."],
-            speed: 150,
+            speed: 100,
             breakLines: false,
             autoStart: false
         });

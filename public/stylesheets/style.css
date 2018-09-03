@@ -19,27 +19,6 @@ body {
   margin: 0 auto;
   width: 100%;
   height: 100vh; }
-@-webkit-keyframes AnimationName {
-  0% {
-    background: #098dff; }
-  50% {
-    background: #18c7ff; }
-  100% {
-    background: #23faff; } }
-@-moz-keyframes AnimationName {
-  0% {
-    background: #098dff; }
-  50% {
-    background: #18c7ff; }
-  100% {
-    background: #23faff; } }
-@keyframes AnimationName {
-  0% {
-    background: #098dff; }
-  50% {
-    background: #18c7ff; }
-  100% {
-    background: #23faff; } }
   .main-flow h1 {
     font-size: 4em;
     padding: 15px;
@@ -62,11 +41,6 @@ body {
   animation-name: fadeIn;
   animation-duration: 2s; }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
 .upper {
   visibility: hidden;
   opacity: 0;
@@ -151,13 +125,19 @@ body {
   margin: 20px 0;
   display: block; }
 
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    transform: translate3d(0, -100%, 0); }
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0); } }
+#back-main {
+  color: white;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 16px; }
+
+@keyframes AnimationName {
+  0% {
+    background: #098dff; }
+  50% {
+    background: #18c7ff; }
+  100% {
+    background: #23faff; } }
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -165,12 +145,6 @@ body {
   to {
     opacity: 1;
     transform: translate3d(0, 0, 0); } }
-#back-main {
-  color: white;
-  padding: 10px;
-  border: 1px solid white;
-  border-radius: 16px; }
-
 @keyframes pulse {
   from {
     transform: scale3d(1, 1, 1); }
@@ -178,5 +152,31 @@ body {
     transform: scale3d(1.05, 1.05, 1.05); }
   to {
     transform: scale3d(1, 1, 1); } }
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0); }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); } }
+@-webkit-keyframes AnimationName {
+  0% {
+    background: #098dff; }
+  50% {
+    background: #18c7ff; }
+  100% {
+    background: #23faff; } }
+@-moz-keyframes AnimationName {
+  0% {
+    background: #098dff; }
+  50% {
+    background: #18c7ff; }
+  100% {
+    background: #23faff; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -8,10 +8,6 @@ body {
   margin: 0;
   font: 14px "Roboto", Helvetica, Arial, sans-serif; }
 
-@media only screen and (min-width: 768px) {
-  -webkit-animation: AnimationName 13s ease infinite alternate;
-  -moz-animation: AnimationName 13s ease infinite alternate;
-  animation: AnimationName 13s ease infinite alternate; }
 .main-flow {
   display: flex;
   align-items: center;
@@ -71,6 +67,7 @@ body {
   margin: 30px;
   position: relative; }
   .project-card img {
+    border-radius: 15px;
     max-width: 100%;
     height: 200px; }
   .project-card:hover > .overlay-card {
@@ -84,6 +81,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  flex-wrap: nowrap;
   opacity: 0.0;
   -webkit-transition: all 500ms ease-in-out;
   -moz-transition: all 500ms ease-in-out;
@@ -93,7 +91,8 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(25, 129, 162, 0.8); }
+  background: rgba(25, 129, 162, 0.8);
+  }
 
 .projects-div {
   animation-name: fadeInUp;
@@ -178,5 +177,9 @@ body {
     background: #18c7ff; }
   100% {
     background: #23faff; } }
+@media only screen and (min-width: 767px) {
+  -webkit-animation: AnimationName 13s ease infinite alternate;
+  -moz-animation: AnimationName 13s ease infinite alternate;
+  animation: AnimationName 13s ease infinite alternate; }
 
 /*# sourceMappingURL=style.css.map */

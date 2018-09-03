@@ -36,33 +36,15 @@ class YvProjectsComponent extends HTMLElement {
         </div>
         <img src= "images/zombye.png" />
       </a>
-      <div class="project-card">
+      <a href="https://www.youtube.com/watch?v=jcs5O4uk2G4" target="_blank" class="project-card">
         <div class="overlay-card">
-          <p>Lorem Ipsum</p>
+          <h2>DressApp</h2>
           <p>
-            <span class="info">JavaScript Game</span>
+           UX/UI Study Case for dressing up
           </p>
         </div>
-        <img src= "" />
-      </div>
-      <div class="project-card">
-        <div class="overlay-card">
-          <p>Lorem Ipsum</p>
-          <p>
-            <span class="info">JavaScript Game</span>
-          </p>
-        </div>
-        <img src= "" />
-      </div>
-      <div class="project-card">
-        <div class="overlay-card">
-          <p>Lorem Ipsum</p>
-          <p>
-            <span class="info">JavaScript Game</span>
-          </p>
-        </div>
-        <img src= "" />
-      </div>
+        <img src= "images/dressapp.png" />
+      </a>
     </div>
     </div>
     `;

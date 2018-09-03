@@ -37,6 +37,9 @@ body {
   animation-name: fadeIn;
   animation-duration: 2s; }
 
+.left {
+  text-align: left; }
+
 .upper {
   visibility: hidden;
   opacity: 0;

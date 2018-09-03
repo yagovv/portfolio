@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aba635f-bc57-4901-8e9d-0078eb1af2cb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/public/javascripts/YvProjectsComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/YvProjectsComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.scss" afterDir="false" />
@@ -32,7 +31,7 @@
         <counts>
           <entry key="gitignore" value="29" />
           <entry key="js" value="102" />
-          <entry key="scss" value="255" />
+          <entry key="scss" value="308" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -40,7 +39,7 @@
           <entry key="HTML" value="1" />
           <entry key="JavaScript" value="101" />
           <entry key="PLAIN_TEXT" value="29" />
-          <entry key="SCSS" value="255" />
+          <entry key="SCSS" value="308" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -82,7 +81,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/YvProjectsComponent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
+            <state relative-caret-position="1415">
               <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
             </state>
           </provider>
@@ -91,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/YvAboutComponent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
+            <state relative-caret-position="564">
               <caret line="19" column="141" selection-start-line="19" selection-start-column="141" selection-end-line="19" selection-end-column="141" />
             </state>
           </provider>
@@ -100,8 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1497">
-              <caret line="78" column="15" lean-forward="true" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
+            <state relative-caret-position="520">
+              <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -269,12 +268,12 @@
       <workItem from="1534436637926" duration="506000" />
       <workItem from="1534454092748" duration="40000" />
       <workItem from="1535982720783" duration="10000" />
-      <workItem from="1535982753303" duration="998000" />
+      <workItem from="1535982753303" duration="1304000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16166000" />
+    <option name="totallyTimeSpent" value="16472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -348,27 +347,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/YvAboutComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="19" column="141" selection-start-line="19" selection-start-column="141" selection-end-line="19" selection-end-column="141" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.hbs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/YvProjectsComponent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
+        <state relative-caret-position="1415">
           <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/YvAboutComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="19" column="141" selection-start-line="19" selection-start-column="141" selection-end-line="19" selection-end-column="141" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1497">
-          <caret line="78" column="15" lean-forward="true" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
+        <state relative-caret-position="520">
+          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
         </state>
       </provider>
     </entry>
